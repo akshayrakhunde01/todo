@@ -1,13 +1,12 @@
 let todo =[];
-//let req = prompt('Enter Your request');
-
 while(true){
     let req = prompt('Enter Your request');
 
     if(req==='list') {
-        console.log("showing the data");
+        
         for(let index=0; index<todo.length; index++){
-            prompt(index,todo[index]);
+            //prompt(index,todo[index]);
+            console.log(index,todo[index]);
         }
     }
 
